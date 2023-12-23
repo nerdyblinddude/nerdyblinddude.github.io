@@ -1,0 +1,107 @@
+baseURL = "https://gregsplace.net"
+languageCode = "en-us"
+title = "Greg's Place"
+theme = "anubis"
+paginate = 10
+
+googleAnalytics = ""
+
+[author]
+name = "Greg Lopez"
+
+[params]
+author = "Greg Lopez"
+description = "The Personal Space Of Greg Lopez"
+dateFormat = "2006-01-02"
+paginationSinglePost = true
+style = "auto"
+readMore = false
+readNextPosts = 3
+copyCodeButton = true
+rssAsSocialIcon = true
+mathjax = true
+
+# Giscus support
+GiscusRepo = ""  # mandatory
+GiscusRepoId = ""  # mandatory
+GiscusCategory = "Announcements" # mandatory
+GiscusCategoryId = ""  # mandatory
+GiscusLazyLoad = false  # optional
+
+[[params.social]]
+id = "discord"
+url = "https://discord.com/users/877529484083998751"
+
+[[params.social]]
+id = "facebook"
+url = "https://facebook.com/nerdyblinddude"
+
+[[params.social]]
+id = "github"
+url = "https://github.com/nerdyblinddude"
+
+[[params.social]]
+id = "mastodon"
+url = "https://dragonscave.space/@nerdyblinddude"
+
+[[params.social]]
+id = "matrix"
+url = "https://matrix.to/#/@nerdyblinddude:tchncs.de"
+
+[[params.social]]
+id = "messenger"
+url = "https://m.me/nerdyblinddude"
+
+[[params.social]]
+id = "reddit"
+url = "https://reddit.com/u/nerdyblinddude"
+
+[[params.social]]
+id = "telegram"
+url = "https://t.me/nerdyblinddude"
+
+[[params.social]]
+id = "threema"
+url = "https://threema.id/ZB52XU2H"
+
+[[params.social]]
+id = "twitch"
+url = "https://twitch.tv/nerdyblinddude"
+
+[[params.social]]
+id = "youtube"
+url = "https://youtube.com/@nerdyblinddude"
+
+[menu]
+
+[[menu.main]]
+identifier = "about"
+name = "About Greg's Place"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+name = "Blog Posts"
+identifier = "archive"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+name = "Post Categories"
+identifier = "categories"
+url = "/categories/"
+weight = 3
+
+[[menu.main]]
+identifier = "tags"
+name = "Post Tags"
+url = "/tags/"
+weight = 4
+
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[markup.goldmark.renderer]
+unsafe = true
