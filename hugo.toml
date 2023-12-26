@@ -41,6 +41,10 @@ id = "github"
 url = "https://github.com/nerdyblinddude"
 
 [[params.social]]
+id = "instagram"
+url = "https://instagram.com/nerdyblinddude"
+
+[[params.social]]
 id = "mastodon"
 url = "https://dragonscave.space/@nerdyblinddude"
 
@@ -61,12 +65,20 @@ id = "telegram"
 url = "https://t.me/nerdyblinddude"
 
 [[params.social]]
+id = "threads"
+url = "https://threads.net/nerdyblinddude"
+
+[[params.social]]
 id = "threema"
 url = "https://threema.id/ZB52XU2H"
 
 [[params.social]]
 id = "twitch"
 url = "https://twitch.tv/nerdyblinddude"
+
+[[params.social]]
+id = "whatsapp"
+url = "https://wa.me/+12064882148"
 
 [[params.social]]
 id = "youtube"
